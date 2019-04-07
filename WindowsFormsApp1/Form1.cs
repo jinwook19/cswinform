@@ -35,6 +35,7 @@ namespace WindowsFormsApp1
         private void Button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("합계");
+            tbsum.Text = textKorean.Text;
 
         }
     }
