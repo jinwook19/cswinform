@@ -30,6 +30,7 @@ namespace WindowsFormsApp1
                 if (exception.Message == "입력 문자열의 형식이 잘못되었습니다.")
                 {
                     MessageBox.Show("숫자값을 입력하세요");
+                    Console.WriteLine();
 
                 }
                 else
