@@ -19,30 +19,22 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                Int32 result = Convert.ToInt32(textKorean.Text) + Convert.ToInt32(textEnglish.Text) + Convert.ToInt32(textMath.Text);
-                MessageBox.Show(Convert.ToString(result));
-                textAverage.Text = Convert.ToString(result / 3);
-            }
-            catch (Exception exception)
-            {
-                if (exception.Message == "입력 문자열의 형식이 잘못되었습니다.")
-                {
-                    MessageBox.Show("숫자값을 입력하세요");
-                }
-                else
-                {
-                    MessageBox.Show(exception.Message);
 
-                }
+            Int32 result = Convert.ToInt32(textKorean.Text) + Convert.ToInt32(textEnglish.Text) + Convert.ToInt32(textMath.Text);
+            MessageBox.Show(Convert.ToString(result));
+            textAverage.Text = Convert.ToString(result / 3);
 
-            }
 
         }
 
         private void Label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("합계");
 
         }
     }
