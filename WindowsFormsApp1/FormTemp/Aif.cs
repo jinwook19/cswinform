@@ -30,34 +30,8 @@ namespace WindowsFormsApp1.FormTemp
             textBox3.Text = "상현";
             textBox4.Text = "준범";
             textBox5.Text = "태섭";
+            textBox6.Text = "아영";
 
-            if(result == 3)
-            {
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "상현";
-                textBox4.Text = "";
-                textBox5.Text = "";
-                        
-            }
-            if (result == 4)
-            {
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "";
-                textBox4.Text = "준범";
-                textBox5.Text = "";
-
-            }
-            if (result == 5)
-            {
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "";
-                textBox4.Text = "";
-                textBox5.Text = "태섭";
-
-            }
             if (result == 1)
             {
                 textBox1.Text = "진욱";
@@ -65,7 +39,7 @@ namespace WindowsFormsApp1.FormTemp
                 textBox3.Text = "";
                 textBox4.Text = "";
                 textBox5.Text = "";
-
+                textBox6.Text = "";
             }
             if (result == 2)
             {
@@ -74,11 +48,44 @@ namespace WindowsFormsApp1.FormTemp
                 textBox3.Text = "";
                 textBox4.Text = "";
                 textBox5.Text = "";
-
+                textBox6.Text = "";
             }
-
-
-
+            if (result == 3)
+            {
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "상현";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "";
+            }
+            if (result == 4)
+            {
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "준범";
+                textBox5.Text = "";
+                textBox6.Text = "";
+            }
+            if (result == 5)
+            {
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "태섭";
+                textBox6.Text = "";
+            }
+            if (result == 6)
+            {
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "아영";
+            }
 
 
 
