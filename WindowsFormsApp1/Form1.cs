@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            Console.WriteLine("새로설치");
         }
 
         private void Button1_Click(object sender, EventArgs e)
