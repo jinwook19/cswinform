@@ -32,16 +32,16 @@ namespace WindowsFormsApp1
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (result == 1)
+            if (result == 2)
             {
                 textBox1.Text = "";
-                textBox2.Text = "";
+                textBox2.Text = "오성";
                 textBox3.Text = "";
                 textBox4.Text = "";
                 textBox5.Text = "";
                 textBox6.Text = "";
             }
-            if (result == 2)
+            if (result == 4)
             {
                 textBox1.Text = "";
                 textBox2.Text = "";
@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
                 textBox5.Text = "";
                 textBox6.Text = "";
             }
-            if (result == 3)
+            if (result == 6)
             {
                 textBox1.Text = "";
                 textBox2.Text = "";
@@ -59,24 +59,8 @@ namespace WindowsFormsApp1
                 textBox5.Text = "";
                 textBox6.Text = "유라";
                 {
-            if (result == 4)
-                    {
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "";
-                textBox4.Text = "준범";
-                textBox5.Text = "";
-                textBox6.Text = "";
-                    }
-            if (result == 5)
-                    {
-             textBox1.Text = "";
-             textBox2.Text = "";
-             textBox3.Text = "";
-             textBox4.Text = "준범";
-             textBox5.Text = "";
-             textBox6.Text = "";
-                    }
+          
+                        
                 }
 
 
