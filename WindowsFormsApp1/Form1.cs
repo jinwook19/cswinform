@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             Console.WriteLine("새로설치");
         }
-
+        // 깃허브에 새로운 내용 변경 저장하는 연습!!
         private void Button1_Click(object sender, EventArgs e)
         {
 
