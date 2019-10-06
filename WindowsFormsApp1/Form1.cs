@@ -39,5 +39,10 @@ namespace WindowsFormsApp1
             tbsum.Text = textKorean.Text;
 
         }
+
+        private void Tbsum_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

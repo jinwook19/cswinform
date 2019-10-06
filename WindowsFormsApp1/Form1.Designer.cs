@@ -123,6 +123,7 @@
             this.tbsum.Name = "tbsum";
             this.tbsum.Size = new System.Drawing.Size(243, 25);
             this.tbsum.TabIndex = 9;
+            this.tbsum.TextChanged += new System.EventHandler(this.Tbsum_TextChanged);
             // 
             // button2
             // 
